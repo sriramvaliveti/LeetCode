@@ -8,7 +8,7 @@ public:
         //cout<<a<<endl;
         for(auto str:words){
             int temp = 0;
-            cout<<'\n'<<str<<endl;
+            //cout<<'\n'<<str<<endl;
             for (auto ch:str){
                 temp = temp|(1<<(ch-'a'));
             }
