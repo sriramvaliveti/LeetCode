@@ -7,9 +7,9 @@ public:
             return 0;
         }
         for (int i=1;i<n;i++){
-        cout<<ans<<" "<<prev<<" "<<nums[i]<<" ";
+        //cout<<ans<<" "<<prev<<" "<<nums[i]<<" ";
         if (nums[i]<=prev){
-            cout<<i<<endl;
+           // cout<<i<<endl;
             ans = ans+ prev-nums[i]+1;
             prev+=1;
         }
